@@ -23,7 +23,6 @@ class GoodList {
 
     get list() {
         const forSale = this.#goods.filter((good) =>
-            // Дописать регулярку в фильтр
             this.filter.test(good.name)
         );
 
